@@ -1,32 +1,64 @@
 <main id="main-doc"> 
 <header>Technical Documentation</header> 
+<nav id="navbar">
+  <header>Introduction </header> 
+  <a class="nav-link"> </a> 
+  <a class="nav-link"> </a> 
+  <a class="nav-link"> </a> 
+  <a class="nav-link"> </a> 
+  <a class="nav-link"> </a> 
+  </nav> 
 <section class="main-section" id="Topic_1">
   <header>Topic 1</header>
   <p></p>
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
   <p></p>
    <code></code>
 </section>
 <section class="main-section" id="Topic_2" >
   <header>Topic2</header> 
   <p></p>
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
   <p></p>
    <code></code>
 </section>
 <section class="main-section"  id="Topic_3">
   <header>Topic 3</header>
   <p></p>
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
   <p></p>
    <code></code>
 </section>
 <section class="main-section" id="Topic_4">
   <header>Topic 4</header>
   <p></p>
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
   <p></p>
    <code></code>
 </section>
 <section class="main-section" id="Topic_5">
   <header>Topic 5</header> 
   <p></p>
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
   <p></p>
   <
   <code></code> 
