@@ -1,51 +1,59 @@
 <main id="main-doc"> 
   <link rel="stylesheet" href="styles.css">
-<header>Technical Documentation</header> 
-<nav id="navbar">
-  <header>Introduction </header>
+<header>Javascript Technical Documentation</header> 
 <p>JavaScript is the world's most popular programming language.
 
 JavaScript is the programming language of the Web.
 
 JavaScript is easy to learn.
 
-This tutorial will teach you JavaScript from basic to advanced.</p> 
-  <a class="nav-link"> </a> 
-  <a class="nav-link"> </a> 
-  <a class="nav-link"> </a> 
-  <a class="nav-link"> </a> 
-  <a class="nav-link"> </a> 
+This tutorial will teach you JavaScript from basic to advanced.</p>
+<nav id="navbar"> 
+  <header>bar</header>
+  <a class="nav-link" id="Variables">Variables </a> 
+  <a class="nav-link" id="Functions">Functions </a> 
+  <a class="nav-link" id="Arrays">Arrays </a> 
+  <a class="nav-link" id="Objects">Objects </a> 
+  <a class="nav-link" id="Operators">Operators </a> 
   </nav> 
 <section class="main-section" id="Variables">
   <header>Variables</header>
   <p></p>
-  <li>
+  <li> Always declare variables
 </li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
+  <li>Always use const if the value should not be changed</li> 
+  <li>Always use const if the type should not be changed (Arrays and Objects)</li> 
+  <li> Only use let if you can't use const</li>
+  <li>Only use var if you MUST support old browsers.</li>
   <p></p>
    <code></code>
 </section>
 <section class="main-section" id="Functions" >
   <header>Functions</header> 
   <p></p>
-  <li></li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
+  <li>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().</li> 
+  <li>Function parameters are listed inside the parentheses () in the function definition.</li> 
+  <li>Function arguments are the values received by the function when it is invoked.</li> 
+  <li>Inside the function, the arguments (the parameters) behave as local variables.</li> 
+  <li>With functions you can reuse code
+
+You can write code that can be used many times.
+
+You can use the same code with different arguments, to produce different results.</li> 
   <p></p>
    <code></code>
 </section>
 <section class="main-section"  id="Arrays">
   <header>Arrays</header>
   <p></p>
-  <li></li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
+  <li>An array is a special variable, which can hold more than one value:
+let car1 = "Saab";
+let car2 = "Volvo";
+let car3 = "BMW";</li> 
+  <li>An array can hold many values under a single name, and you can access the values by referring to an index number.</li> 
+  <li>The JavaScript method toString() converts an array to a string of (comma separated) array values.</li> 
+  <li>With JavaScript, the full array can be accessed by referring to the array name:</li> 
+  <li>Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.</li> 
   <p></p>
    <code></code>
 </section>
@@ -63,13 +71,16 @@ This tutorial will teach you JavaScript from basic to advanced.</p>
 <section class="main-section" id="Operators">
   <header>Operators</header> 
   <p></p>
-  <li></li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
+  <li>Objects are variables too. But objects can contain many values.
+    const car = {type:"Fiat", model:"500", color:"white"};</li> 
+  <li>An object literal is a list of name:value pairs inside curly braces {}.</li> 
+  <li>object literals are also called object initializers.</li> 
+  <li>You can access object properties in two ways:
+    objectName.propertyName
+    objectName["propertyName"]</li> 
   <li></li> 
   <p></p>
-  <
+  
   <code></code> 
 </section>
 </main>
