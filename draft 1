@@ -14,11 +14,11 @@ JavaScript is easy to learn.
 This tutorial will teach you JavaScript from basic to advanced.</p>
 <nav id="navbar"> 
   <header>bar</header>
-  <a class="nav-link" id="Variables">Variables </a> 
-  <a class="nav-link" id="Functions">Functions </a> 
-  <a class="nav-link" id="Arrays">Arrays </a> 
-  <a class="nav-link" id="Objects">Objects </a> 
-  <a class="nav-link" id="Operators">Operators </a> 
+  <a href="#Variables" class="nav-link" id="Variables">Variables </a> 
+  <a href="#Functions"class="nav-link" id="Functions">Functions </a> 
+  <a href="#Arrays" class="nav-link" id="Arrays">Arrays </a> 
+  <a href="#Objects" class="nav-link" id="Objects">Objects </a> 
+  <a href="#Operators" class="nav-link" id="Operators">Operators </a> 
   </nav> 
 <section class="main-section" id="Variables">
   <header>Variables</header>
