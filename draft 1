@@ -1,4 +1,8 @@
-<main id="main-doc"> 
+<!DOCTYPE html> 
+<html lang="en">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <main id="main-doc"> 
   <link rel="stylesheet" href="styles.css">
 <header>Javascript Technical Documentation</header> 
 <p>JavaScript is the world's most popular programming language.
@@ -60,10 +64,13 @@ let car3 = "BMW";</li>
 <section class="main-section" id="Objects">
   <header>Objects</header>
   <p></p>
-  <li></li> 
-  <li></li> 
-  <li></li> 
-  <li></li> 
+  <li>Objects are variables too. But objects can contain many values.
+    const car = {type:"Fiat", model:"500", color:"white"};</li> 
+  <li>Objects are variables too. But objects can contain many values.</li> 
+  <li>object literals are also called object initializers.</li> 
+  <li>You can access object properties in two ways:
+    objectName.propertyName
+    objectName["propertyName"]</li> 
   <li></li> 
   <p></p>
    <code></code>
@@ -71,14 +78,21 @@ let car3 = "BMW";</li>
 <section class="main-section" id="Operators">
   <header>Operators</header> 
   <p></p>
-  <li>Objects are variables too. But objects can contain many values.
-    const car = {type:"Fiat", model:"500", color:"white"};</li> 
-  <li>An object literal is a list of name:value pairs inside curly braces {}.</li> 
-  <li>object literals are also called object initializers.</li> 
-  <li>You can access object properties in two ways:
-    objectName.propertyName
-    objectName["propertyName"]</li> 
-  <li></li> 
+  <li>Javascript operators are used to perform different types of mathematical and logical computations.</li> 
+  <li>The Assignment Operator = assigns values.
+    </li> 
+  <li>The Addition Operator + adds values</li> 
+  <li>The Multiplication Operator (*) multiplies numbers.</li> 
+  <li>There are different types of JavaScript operators:
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators</li> 
   <p></p>
   
   <code></code> 
