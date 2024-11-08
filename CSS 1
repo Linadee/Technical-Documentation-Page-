@@ -1,5 +1,5 @@
 main{
-  background-color: #8FBC8F; 
+  background-color: #BC8F8F; 
   font-family: monospace;  
   box-sizing: border-box; 
   padding: 0; 
@@ -11,17 +11,30 @@ header {
   font-weight: bold;
 }
 
-#navbar{
+#navbar {
   background-color: #FFF0F5;
   font-size: 16px;
   padding: 10px;
   display: flex; 
  flex-direction: column;
 }
- p {
-   text-align: center; 
+
+a {
+  color: black;
+  position: absolute; 
+  left: 50%;
+  width: 50px;
+  height: 10px; 
+}
+
+li{
+   text-align: left; 
    font-size: 16px;
 }
 
 @media (max-width: 768px) {
+  .navlink li {
+    display: block;
+    text-align: left;
   }
+}
