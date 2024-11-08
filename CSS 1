@@ -1,5 +1,5 @@
 main{
-  background-color: #8FBC8F; 
+  background-color: #BC8F8F; 
   font-family: monospace;  
   box-sizing: border-box; 
   padding: 0; 
