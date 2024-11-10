@@ -2,24 +2,20 @@
 <html lang="en">
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <main id="main-doc"> 
-  <link rel="stylesheet" href="styles.css">
-<header>Javascript Technical Documentation</header> 
-<p>JavaScript is the world's most popular programming language.
-
-JavaScript is the programming language of the Web.
-
-JavaScript is easy to learn.
-
-This tutorial will teach you JavaScript from basic to advanced.</p>
+<div class="wrapper"> 
 <nav id="navbar"> 
-  <header>bar</header>
-  <a href="#Variables" class="nav-link" id="Variables">Variables </a> 
-  <a href="#Functions"class="nav-link" id="Functions">Functions </a> 
-  <a href="#Arrays" class="nav-link" id="Arrays">Arrays </a> 
-  <a href="#Objects" class="nav-link" id="Objects">Objects </a> 
-  <a href="#Operators" class="nav-link" id="Operators">Operators </a> 
-  </nav> 
+<header class="h1">Javascript Technical Documentation</header> 
+  <ul>
+  <li><a href="#Variables" class="nav-link" id="Variables">Variables </a> </li>
+  <li><a href="#Functions"class="nav-link" id="Functions">Functions </a></li>
+ <li> <a href="#Arrays" class="nav-link" id="Arrays">Arrays </a> </li>
+<li>  <a href="#Objects" class="nav-link" id="Objects">Objects </a> </li>
+ <li> <a href="#Operators" class="nav-link" id="Operators">Operators </a> </li>
+ </ul>
+  </nav>
+  </div>
 <section class="main-section" id="Variables">
   <header>Variables</header>
   <p></p>
