@@ -14,9 +14,19 @@ main{
   height: 100vn;
   background-color: #BC8F8F
 }
-a {
+ a {
+   display: block;
+   padding: 10px 15px;
   color: #778899;
   text-decoration: none; 
+}
+a:hover {
+  background-color: #555; 
+  color: pink; 
+  border-radius: 5px;
+  font-size: 1.1em;
+  transform: scale (1.1);
+  transition: transform 0.3s ease;
 }
 
 .wrapper {
@@ -29,9 +39,11 @@ a {
 
 header{
   font-weight: bold;
+  padding: 15px
 }
 
 .wrapper header {
+  padding: 5px;
   color: #778899;
   font-size: 20px;
   text-align: center;
@@ -53,14 +65,20 @@ section {
   height: 100vn;
   line-height: 1.5;
 }
+.main-section{
+  padding-bottom: 10px;
+border-bottom: 5px solid rgba(128, 128, 128, 0.5) 
+}
 
 .title {
 font-size: 20px;
 text-align: center;
 }
 
-
-
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
 
 
 
