@@ -1,12 +1,15 @@
-<!DOCTYPE html> 
+
+  <!DOCTYPE html> 
 <html lang="en">
+  <head>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"></head>
+    <body>
     <main id="main-doc"> 
 <div class="wrapper"> 
 <nav id="navbar"> 
-<header class="h1">Javascript Technical Documentation</header> 
+<header>Javascript Technical Documentation</header> 
   <ul>
   <li><a href="#Variables" class="nav-link" id="Variables">Variables </a> </li>
   <li><a href="#Functions"class="nav-link" id="Functions">Functions </a></li>
@@ -17,80 +20,80 @@
   </nav>
   </div>
 <section class="main-section" id="Variables">
-  <header>Variables</header>
-  <p></p>
-  <li> Always declare variables
-</li> 
-  <li>Always use const if the value should not be changed</li> 
-  <li>Always use const if the type should not be changed (Arrays and Objects)</li> 
-  <li> Only use let if you can't use const</li>
-  <li>Only use var if you MUST support old browsers.</li>
-  <p></p>
+  <header class="title">Variables</header>
+  <p>
+  Always declare variables 
+  Always use const if the value should not be changed 
+  Always use const if the type should not be changed (Arrays and Objects)
+  Only use let if you can't use const
+  Only use var if you MUST support old browsers.
+  </p>
    <code></code>
 </section>
 <section class="main-section" id="Functions" >
-  <header>Functions</header> 
-  <p></p>
-  <li>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().</li> 
-  <li>Function parameters are listed inside the parentheses () in the function definition.</li> 
-  <li>Function arguments are the values received by the function when it is invoked.</li> 
-  <li>Inside the function, the arguments (the parameters) behave as local variables.</li> 
-  <li>With functions you can reuse code
-
+  <header class="title">Functions</header> 
+  <p>
+  A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). 
+  Function parameters are listed inside the parentheses () in the function definition.
+  Function arguments are the values received by the function when it is invoked.
+  Inside the function, the arguments (the parameters) behave as local variables.
+  With functions you can reuse code
 You can write code that can be used many times.
 
-You can use the same code with different arguments, to produce different results.</li> 
-  <p></p>
+You can use the same code with different arguments, to produce different results.
+  </p>
    <code></code>
 </section>
 <section class="main-section"  id="Arrays">
-  <header>Arrays</header>
-  <p></p>
-  <li>An array is a special variable, which can hold more than one value:
-let car1 = "Saab";
-let car2 = "Volvo";
-let car3 = "BMW";</li> 
-  <li>An array can hold many values under a single name, and you can access the values by referring to an index number.</li> 
-  <li>The JavaScript method toString() converts an array to a string of (comma separated) array values.</li> 
-  <li>With JavaScript, the full array can be accessed by referring to the array name:</li> 
-  <li>Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.</li> 
-  <p></p>
-   <code></code>
+  <header class="title">Arrays</header>
+  <p>
+  An array is a special variable, which can hold more than one value: </p>
+<li>let car1 = "Saab";</li>
+<li>let car2 = "Volvo";</li>
+<li>let car3 = "BMW";</li> 
+  <p>An array can hold many values under a single name, and you can access the values by referring to an index number.
+  The JavaScript method toString() converts an array to a string of (comma separated) array values.
+  With JavaScript, the full array can be accessed by referring to the array name:
+  Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.</p>
+
+   <code>  let cars = ["Saab", "Volvo", "BMW"]</code>
+
 </section>
 <section class="main-section" id="Objects">
-  <header>Objects</header>
-  <p></p>
-  <li>Objects are variables too. But objects can contain many values.
-    const car = {type:"Fiat", model:"500", color:"white"};</li> 
-  <li>Objects are variables too. But objects can contain many values.</li> 
-  <li>object literals are also called object initializers.</li> 
-  <li>You can access object properties in two ways:
-    objectName.propertyName
-    objectName["propertyName"]</li> 
-  <li></li> 
-  <p></p>
-   <code></code>
+  <header class="title">Objects</header>
+  <p>
+  Objects are variables too. But objects can contain many values.
+    const car = {type:"Fiat", model:"500", color:"white"};
+  Objects are variables too. But objects can contain many    values.
+  object literals are also called object initializers.
+  You can access object properties in two ways: </p>
+  <ul>
+   <li> objectName.propertyName </li>
+    <li>objectName["propertyName"]</li> 
+  </ul>
+   <code>  let cars = ["Saab", "Volvo", "BMW"]</code>
+
 </section>
 <section class="main-section" id="Operators">
-  <header>Operators</header> 
-  <p></p>
-  <li>Javascript operators are used to perform different types of mathematical and logical computations.</li> 
-  <li>The Assignment Operator = assigns values.
-    </li> 
-  <li>The Addition Operator + adds values</li> 
-  <li>The Multiplication Operator (*) multiplies numbers.</li> 
-  <li>There are different types of JavaScript operators:
+  <header class="title">Operators</header> 
+  <p>
+  Javascript operators are used to perform different types of mathematical and logical computations.
+  The Assignment Operator = assigns values.
+    The Addition Operator + adds values 
+The Multiplication Operator (*) multiplies numbers.</p>
+ <p> There are different types of JavaScript operators: </p>
 
-Arithmetic Operators
+<p>Arithmetic Operators
 Assignment Operators
 Comparison Operators
 String Operators
 Logical Operators
 Bitwise Operators
 Ternary Operators
-Type Operators</li> 
-  <p></p>
+Type Operators</p>
   
   <code></code> 
 </section>
 </main>
+</body>
+</html>
