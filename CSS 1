@@ -4,9 +4,6 @@
   box-sixing: border-box; 
 }
 
-html{
-  scroll-behavior: smooth
-}
 
 html body{
   height: 100%;
@@ -19,11 +16,8 @@ main{
 }
 a {
   color: #778899;
-  text-decoration: none;
-  border-bottom
+  text-decoration: none; 
 }
-
-
 
 .wrapper {
   position: fixed;
@@ -33,17 +27,11 @@ a {
   background: #FFF0F5;
 }
 
-.nav-link:hover {
-  background-color: #575757;
-  color: pink;
-  border-radius: 5px;
-  transform: scale(1.05);
-
 header{
   font-weight: bold;
 }
 
-.wrapper #navbar header {
+.wrapper header {
   color: #778899;
   font-size: 20px;
   text-align: center;
@@ -54,27 +42,22 @@ header{
 .wrapper  #navbar ul li{
   list-style: none;
   padding: 15px; 
-  border-bottom: 1px solid;
+  border-bottom: 3px solid #BC8F8F;
   font-weight: bold;
 
 }
 
 section {
   margin: 0;
-  padding-left: 200px;
+  padding-left: 250px;
   height: 100vn;
-
+  line-height: 1.5;
 }
 
 .title {
 font-size: 20px;
 text-align: center;
 }
-
-@media screen and (max-width: 768px) {
-  main {
-    flex-direction: column;
-  }
 
 
 
